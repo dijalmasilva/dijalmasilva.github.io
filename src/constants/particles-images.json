@@ -1,0 +1,56 @@
+[
+  {
+    "src": "/images/particles/angular.svg"
+  },
+  {
+    "src": "/images/particles/aws.svg"
+  },
+  {
+    "src": "/images/particles/css3.svg"
+  },
+  {
+    "src": "/images/particles/dart.svg"
+  },
+  {
+    "src": "/images/particles/eclipse.svg"
+  },
+  {
+    "src": "/images/particles/flutter.svg"
+  },
+  {
+    "src": "/images/particles/html5.svg"
+  },
+  {
+    "src": "/images/particles/intellijidea.svg"
+  },
+  {
+    "src": "/images/particles/java.svg"
+  },
+  {
+    "src": "/images/particles/javascript.svg"
+  },
+  {
+    "src": "/images/particles/kotlin.svg"
+  },
+  {
+    "src": "/images/particles/less.svg"
+  },
+  {
+    "src": "/images/particles/react.svg"
+  },
+  {
+    "src": "/images/particles/sass.svg"
+  },
+  {
+    "src": "/images/particles/spring.svg"
+  },
+  {
+    "src": "/images/particles/typescript.svg"
+  },
+  {
+    "src": "/images/particles/vscode.svg"
+  },
+  {
+    "src": "/images/particles/webstorm.svg"
+  }
+]
