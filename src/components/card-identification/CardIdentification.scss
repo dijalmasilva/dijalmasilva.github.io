@@ -1,0 +1,47 @@
+.card-identification {
+  width: 25vw;
+  min-width: 300px;
+  min-height: 70vh;
+  text-align: center;
+  background-color: #31313b;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin-left: 10px;
+  color: white;
+  position: relative;
+  z-index: 3;
+  perspective: 100px;
+  position: relative;
+
+  .shadow-behind {
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(49, 49, 59, 0.7);
+    width: 100%;
+    height: 100%;
+    left: -2vh;
+    top: -2vh;
+    border-radius: 4px;
+  }
+
+  .card-header {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 89%, 48% 100%, 0 88%);
+  }
+
+  .card-content {
+    p {
+      color: #ca5656;
+    }
+  }
+
+  .card-footer {
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}

@@ -10,18 +10,56 @@
 
   .app-content {
     z-index: 1;
-
-    .introduce-my-self {
-      height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    min-width: 100vw;
+    min-height: 100vh;
+    .content {
+      padding-top: 100px;
+      max-width: 80vw;
+      min-width: 300px;
+      width: 100%;
+      margin: 0 auto;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  }
+}
 
-      .me {
-        text-align: center;
-        img {
-          width: 200px;
-          border-radius: 50%;
+@media (max-width: 1250px) {
+  .app {
+    .app-content {
+      .content {
+        display: block;
+        padding-top: 15px;
+
+        .mini-menu {
+          margin-top: 0;
+          text-align: center;
+          margin-bottom: 10px;
+
+          .item-menu {
+            display: inline-block;
+          }
+
+          .up-line {
+            display: none;
+          }
+        }
+
+        .card-identification {
+          width: 100%;
+          margin-left: 0;
+
+          .shadow-behind {
+            left: 0;
+          }
+        }
+
+        .page-component {
+          width: 100%;
+          margin: 0;
+          margin-top: 10px;
         }
       }
     }

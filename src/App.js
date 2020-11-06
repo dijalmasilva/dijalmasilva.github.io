@@ -1,4 +1,7 @@
 import "./app.scss";
+import CardIdentification from "./components/card-identification/CardIdentification";
+import MiniMenu from "./components/mini-menu/MiniMenu";
+import PageComponent from "./components/page/PageComponent";
 import ParticlesBody from "./components/particles/ParticlesBody";
 
 function App() {
@@ -8,12 +11,26 @@ function App() {
         <ParticlesBody />
       </div>
       <div className="app-content">
-        <div className="introduce-my-self">
-          <div className="me">
-            <img src="/images/peoples/dijalma.jpg" alt="Dijalma Silva" />
-            <h1>Dijalma Silva</h1>
-            <p>Site em manutenção!</p>
-          </div>
+        <div className="content">
+          <MiniMenu />
+          <CardIdentification />
+          <PageComponent>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                height: "66vh",
+                color: "white",
+              }}
+            >
+              <div align="center">
+                <h1>Página em desenvolvimento!</h1>
+                <p>O site em breve estará finalizado.</p>
+                <p>Obrigado pela visita! </p>
+              </div>
+            </div>
+          </PageComponent>
         </div>
       </div>
     </div>
